@@ -1,9 +1,8 @@
 # FinTech-ML-Factor-Investing
 基於機器學習與深度學習之台股多因子選股模型實證研究 (1999-2025)
-# 台股多因子選股實證：基於機器學習與深度學習之 IC 預測模型
-主題:使用線性迴歸(OLS)、隨機森林（RF）、類神經網路(NN)等機器學習進行因子預測分析
+# 使用線性迴歸(OLS)、隨機森林（RF）、類神經網路(NN)等機器學習進行因子預測分析
 
-以規模、帳面市值比、動能當因子運用AI機器學習來建構市場投資組合
+# 以規模、帳面市值比、動能當因子運用AI機器學習來建構市場投資組合
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Financial-Tech](https://img.shields.io/badge/Domain-FinTech-green.svg)
