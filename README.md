@@ -64,15 +64,21 @@
 
 ## 📂 儲存庫結構 (Directory Structure)
 
-```text
-/
-├── data/               # 存放 TEJ 原始資料及特徵矩陣 (CSV)
-├── notebooks/          # 核心程式碼
-│   ├── Preprocessing.ipynb    # 資料清理與因子計算
-│   ├── ML_Models_Train.ipynb  # OLS, RF, XGB 模型訓練
-│   └── DL_Models_Train.ipynb  # NN1-5, LSTM 模型實作
-├── results/            # 本次專案所有的 15 份回測結果
-│   ├── 預測勝率.csv
-│   ├── 夏普比率.csv
-│   └── [各等分]累積報酬.csv
-└── README.md
+FinTech-ML-Factor-Investing/
+├── results/                    # 實驗數據：將 Excel 產出的 CSV 分門別類
+│   ├── summary/                # 總結性績效指標
+│   │   ├── win_rate_all.csv    # 原始檔：預測勝率.csv
+│   │   └── sharpe_ratio.csv    # 原始檔：夏普比率.csv
+│   ├── returns/                # 不同等分的累積報酬數據
+│   │   ├── returns_q10.csv     # 原始檔：10等分累積報酬.csv
+│   │   ├── returns_q50.csv     # 原始檔：50等分累積報酬.csv
+│   │   └── ... (依此類推)
+│   └── model_details/          # 各模型內部的細節數據
+│       ├── RF/                 # 隨機森林相關：真實IC、預測IC、樣本外R2
+│       ├── NN_Series/          # NN1-NN5 相關：勝率、畫圖、預測IC
+│       └── XGB_LSTM/           # 強化學習與時序模型相關
+├── docs/                       # 文件區
+│   └── final_report.pdf        # 你的 96 頁期末報告完整版
+├── .gitignore                  # 忽略不必要上傳的檔案
+├── requirements.txt            # 專案環境依賴
+└── README.md                   # 專案說明文件（門面）
