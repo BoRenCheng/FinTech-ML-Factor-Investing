@@ -62,23 +62,14 @@
 
 ---
 
-## 📂 儲存庫結構 (Directory Structure)
-
 FinTech-ML-Factor-Investing/
-├── results/                    # 實驗數據：將 Excel 產出的 CSV 分門別類
-│   ├── summary/                # 總結性績效指標
-│   │   ├── win_rate_all.csv    # 原始檔：預測勝率.csv
-│   │   └── sharpe_ratio.csv    # 原始檔：夏普比率.csv
-│   ├── returns/                # 不同等分的累積報酬數據
-│   │   ├── returns_q10.csv     # 原始檔：10等分累積報酬.csv
-│   │   ├── returns_q50.csv     # 原始檔：50等分累積報酬.csv
-│   │   └── ... (依此類推)
-│   └── model_details/          # 各模型內部的細節數據
-│       ├── RF/                 # 隨機森林相關：真實IC、預測IC、樣本外R2
-│       ├── NN_Series/          # NN1-NN5 相關：勝率、畫圖、預測IC
-│       └── XGB_LSTM/           # 強化學習與時序模型相關
-├── docs/                       # 文件區
-│   └── final_report.pdf        # 你的 96 頁期末報告完整版
-├── .gitignore                  # 忽略不必要上傳的檔案
-├── requirements.txt            # 專案環境依賴
-└── README.md                   # 專案說明文件（門面）
+├── docs/                       # 存放報告與技術文件
+│   └── 金融科技_期末報告.pdf
+├── results/                    # 核心數據區 (所有 CSV 放置處)
+│   ├── summary/                # 跨模型績效總結指標
+│   ├── cumulative_returns/     # 各分組等分的累積報酬趨勢
+│   └── model_details/          # 單一模型深入指標
+│       ├── rf/                 # 隨機森林相關
+│       └── nn_series/          # NN1 至 NN5 相關
+├── .gitignore                  # 忽略不必要的系統暫存檔
+└── README.md                   # 專案說明文件
