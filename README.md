@@ -4,6 +4,7 @@
 主題:使用線性迴歸(OLS)、隨機森林（RF）、類神經網路(NN)等機器學習進行因子預測分析
 
 以規模、帳面市值比、動能當因子運用AI機器學習來建構市場投資組合
+
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Financial-Tech](https://img.shields.io/badge/Domain-FinTech-green.svg)
 ![Quant](https://img.shields.io/badge/Strategy-Factor_Investing-orange.svg)
@@ -12,7 +13,7 @@
 
 ---
 
-## 🔍 研究背景與資料描述
+## 研究背景與資料描述
 
 面對大數據時代，本專案探討非線性模型（機器學習、深度學習）在金融時間序列預測上，是否能比傳統線性模型提供更穩健的超額報酬（Alpha）。
 
@@ -23,7 +24,7 @@
 
 ---
 
-## 🧠 特徵工程與模型建構
+## 特徵工程與模型建構
 
 本研究選用 Fama-French 三因子理論作為基礎，並實作多達 10 種模型進行交叉驗證：
 
@@ -41,7 +42,7 @@
 
 ---
 
-## 📊 核心成果分析 (Performance Analysis)
+## 核心成果分析 (Performance Analysis)
 
 我們對 964 檔股票進行了不同精細度（10 等分至 964 等分）的排序與回測。以下為核心發現：
 
