@@ -61,6 +61,11 @@
 隨機森林在 241 等分下取得最佳累積報酬（約 4.63），顯示在台灣市場中，集成學習對於財務因子的非線性捕捉能力優於純深度學習。
 
 ---
+## 授權
+Copyright (c) 2026 Bo-Ren Cheng(BoRenCheng)
+
+本專案採用 MIT License 授權。
+
 ```text
 FinTech-ML-Factor-Investing/
 ├── docs/                       # 存放報告與技術文件
